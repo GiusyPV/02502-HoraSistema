@@ -24,18 +24,18 @@ import java.util.Calendar;
 public class Main {
 
     public static void main(String[] args) {
-        
+
         int h;
         int m;
         int s;
-        
+
         Calendar cal = Calendar.getInstance();
-        
+
         h = cal.get(Calendar.HOUR_OF_DAY);
         m = cal.get(Calendar.MINUTE);
         s = cal.get(Calendar.SECOND);
-        
+
         System.out.printf("%s%02d:%02d:%02d%n", "Hora del sistema ....: ", h, m, s);
-        
+
     }
 }
